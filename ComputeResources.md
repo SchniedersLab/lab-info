@@ -1,16 +1,16 @@
-Getting started with U. of Iowa computing resources
+# Getting started with U. of Iowa computing resources
 
-The University of Iowa Argon Cluster
-Please request an account here: https://hpc.uiowa.edu/user-services/apply-account. 
-Argon instructions are available via Argon Cluster.
-There are also more general Cluster Systems Documentation.
+## The University of Iowa Argon Cluster
+* Please request an account here: https://hpc.uiowa.edu/user-services/apply-account. 
+* Argon instructions are available via [Argon Cluster](https://wiki.uiowa.edu/display/hpcdocs/Argon+Cluster).
+* There are also more general [Cluster Systems Documentation](https://wiki.uiowa.edu/display/hpcdocs/Cluster+Systems+Documentation).
 
-The Schnieders' Lab Dedicated Storage
-When logged into the Argon cluster, our lab's dedicated storage is located at /Dedicated/schnieders
-It can also be mounted locally on your Mac from within Finder using "Connect to Server" and the address: smb://lc-rs-storage19.hpc.uiowa.edu/schnieders
-General information about large scale storage at the U. of Iowa is available here Large Scale Storage Service Documentation.
+## The Schnieders' Lab Dedicated Storage
+* When logged into the Argon cluster, our lab's dedicated storage is located at /Dedicated/schnieders
+* It can also be mounted locally on your Mac from within Finder using "Connect to Server" and the address: smb://lc-rs-storage19.hpc.uiowa.edu/schnieders
+* General information about large scale storage at the U. of Iowa is available here [Large Scale Storage Service Documentation](https://its.uiowa.edu/lss).
 
-Schnieders Lab "MS" Queue
+## Schnieders Lab "MS" Queue
 The queue consists of 16 nodes and 64 Nvidia GPUs.
 
 1. Nodes with 6 Nvida A10 GPUs (22 GB memory) and 112 Intel Cores (128 GB of memory)
@@ -35,7 +35,7 @@ The queue consists of 16 nodes and 64 Nvidia GPUs.
   * argon-lc-g11-38
   * argon-lc-h21-40
 
-Schnieders Lab managed "IVRVOLTA" Queue 
+## Schnieders Lab managed "IVRVOLTA" Queue 
 
 1. 4 nodes with 1 Titan V GPU each and 64 GB of memory
   * argon-lc-f14-27
@@ -43,6 +43,6 @@ Schnieders Lab managed "IVRVOLTA" Queue
   * argon-lc-f14-29
   * argon-lc-f14-30
 
-* This data was retrieved on Sept 14, 2022 using a command suggested by Glenn Johnson: qstat -s r -F -q $(qselect -q MS) 
+This data was retrieved on Sept 14, 2022 using a command suggested by Glenn Johnson: qstat -s r -F -q $(qselect -q MS) 
 
 
