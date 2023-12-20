@@ -1,7 +1,7 @@
 # Getting started with U. of Iowa computing resources
 
 ## The University of Iowa Argon Cluster
-* Please request an account here: https://hpc.uiowa.edu/user-services/apply-account. 
+* Please request an [account here](https://research.its.uiowa.edu/our-services/computing-services/argon-high-performance-computing-hpc).
 * Argon instructions are available via [Argon Cluster](https://wiki.uiowa.edu/display/hpcdocs/Argon+Cluster).
 * There are also more general [Cluster Systems Documentation](https://wiki.uiowa.edu/display/hpcdocs/Cluster+Systems+Documentation).
 
