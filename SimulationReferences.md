@@ -1,6 +1,6 @@
 # Online Molecular Simulation References through the U. of Iowa Libraries
-[Essentials of Computational Chemistry: Theories and Models] by Christopher Kramer (Prof. at the U. of Minnesota)
-[The Art of Molecular Dynamics Simulation] by D. C. Rapaport
+1. [Essentials of Computational Chemistry: Theories and Models](https://ebookcentral-proquest-com.proxy.lib.uiowa.edu/lib/uiowa/detail.action?docID=232703) by Christopher Kramer (Prof. at the U. of Minnesota)
+2. [The Art of Molecular Dynamics Simulation](https://ebookcentral-proquest-com.proxy.lib.uiowa.edu/lib/uiowa/detail.action?docID=259878) by D. C. Rapaport
 
 
 
