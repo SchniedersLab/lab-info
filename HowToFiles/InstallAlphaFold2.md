@@ -53,7 +53,6 @@ Place the run_alphafold.sh script in the main AlphaFold directory:
 [run_alphafold.sh]()
 
 Example Job Script:  
-<code>
 #$ -r n                      # Restartable  
 #$ -ckpt user                # Restart under user; do not change (do not replace with your username)  
 #$ -V                        # Inherit current environment  
@@ -68,15 +67,14 @@ Example Job Script:
 #$ -S /bin/bash              # Shell to use  
 
 #ACTIVATE YOUR PREFERRED CONDA ENVIRONMENT  
-source activate alphafold
-export NVIDIA_VISIBLE_DEVICES='all'
-export TF_FORCE_UNIFIED_MEMORY=1.0
-export XLA_PYTHON_CLIENT_MEM_FRACTION=4.0
-export OPENMM_CPU_THREADS=8
+`source activate alphafold`  
+`export NVIDIA_VISIBLE_DEVICES='all'`  
+`export TF_FORCE_UNIFIED_MEMORY=1.0`  
+`export XLA_PYTHON_CLIENT_MEM_FRACTION=4.0`  
+`export OPENMM_CPU_THREADS=8`  
 
 #CHANGE LOCATION OF ALHPAFOLD_PATH TO DESIRED PATH
 
-alphafold_path="/Dedicated/schnieders/programs/alphafold2-github"
+`alphafold_path="/Dedicated/schnieders/programs/alphafold2-github"`
 
-bash /Dedicated/schnieders/programs/alphafold2-github/run_alphafold.sh -d /Dedicated/schnieders/programs/alphafold2-data/alphafold-data -o . -m monomer -f ./test.fasta -t 2020-05-14
-</code>
+`bash /Dedicated/schnieders/programs/alphafold2-github/run_alphafold.sh -d /Dedicated/schnieders/programs/alphafold2-data/alphafold-data -o . -m monomer -f ./test.fasta -t 2020-05-14`
