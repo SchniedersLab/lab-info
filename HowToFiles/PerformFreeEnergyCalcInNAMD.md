@@ -52,8 +52,8 @@ Free Energy Simulations
        3. Open TK Console
           * Extension > TK Console
           * Type these commands:
-            * `set origin [atomselect top all]`
-            * `measure center $origin`
+            1. `set origin [atomselect top all]`
+            2. `measure center $origin`
           * Copy and paste cell origin into configuration files
 5. Time-steps
    * Individual time steps are measure by fempto-seconds
