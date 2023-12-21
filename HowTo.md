@@ -1,0 +1,11 @@
+# How To...
+* [install and build FFX]()
+* [Accelerate FFX-OpenMM with CUDA on laboratory iMacs]()
+* [do a simple energy calculation]()
+* [work with raw PDB files]()
+* [solvate a protein]()
+* [perform an x-ray minimization]()
+* [perform rotamer optimization]()
+* [perform free energy calculations in NAMD]()
+* [How to Install AlphaFold2]()
+* [Recover data from Dedicated on Argon]()
