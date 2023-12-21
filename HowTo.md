@@ -1,5 +1,5 @@
 # How To...
-* [install and build FFX]()
+* [install and build FFX](https://github.com/SchniedersLab/lab-info/blob/main/HowToFiles/InstallAndBuildFFX.md)
 * [Accelerate FFX-OpenMM with CUDA on laboratory iMacs]()
 * [do a simple energy calculation]()
 * [work with raw PDB files]()
