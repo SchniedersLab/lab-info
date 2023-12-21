@@ -6,6 +6,6 @@
 * [solvate a protein]()
 * [perform an x-ray minimization]()
 * [perform rotamer optimization]()
-* [perform free energy calculations in NAMD]()
+* [perform free energy calculations in NAMD](https://github.com/SchniedersLab/lab-info/blob/main/HowToFiles/PerformFreeEnergyCalcInNAMD.md)
 * [How to Install AlphaFold2]()
 * [Recover data from Dedicated on Argon]()
