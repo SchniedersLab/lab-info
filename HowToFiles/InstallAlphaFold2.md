@@ -53,20 +53,20 @@ Place the run_alphafold.sh script in the main AlphaFold directory:
 [run_alphafold.sh]()
 
 Example Job Script:  
-#$ -r n           # Restartable
-#$ -ckpt user        # Restart under user; do not change (do not replace with your username)
-#$ -V            # Inherit current environment
-#$ -cwd           # Start job in submission directory
-#$ -N COCH          # Job Name
-#$ -j y           # Combine stderr and stdout
-#$ -q MS    # Queue
-#$ -pe 56cpn 56       # Node
-#S -l gpu=true        # GPU
-#$ -o $JOB_NAME.$JOB_ID.log # Name of output file
-#$ -l h_rt=196:00:00     # Run Time
-#$ -S /bin/bash       # Shell to use
+#$ -r n                      # Restartable  
+#$ -ckpt user                # Restart under user; do not change (do not replace with your username)  
+#$ -V                        # Inherit current environment  
+#$ -cwd                      # Start job in submission directory  
+#$ -N COCH                   # Job Name  
+#$ -j y                      # Combine stderr and stdout  
+#$ -q MS                     # Queue  
+#$ -pe 56cpn 56              # Node  
+#S -l gpu=true               # GPU  
+#$ -o $JOB_NAME.$JOB_ID.log  # Name of output file  
+#$ -l h_rt=196:00:00         # Run Time  
+#$ -S /bin/bash              # Shell to use  
 
-#ACTIVATE YOUR PREFERRED CONDA ENVIRONMENT
+#ACTIVATE YOUR PREFERRED CONDA ENVIRONMENT  
 <code>
 source activate alphafold
 export NVIDIA_VISIBLE_DEVICES='all'
