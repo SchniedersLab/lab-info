@@ -47,10 +47,10 @@ Change this cd command to go to your anaconda3 installation:
 
 Download a fresh copy of all genetic databases used by AlphaFold from DeepMind; the download_db.sh can be helpful for automating the process:  
 https://github.com/deepmind/alphafold#genetic-databases  
-[download_db.sh]()
+[download_db.sh](https://github.com/SchniedersLab/lab-info/blob/main/HowToFiles/Resources/download_db.sh)
 
 Place the run_alphafold.sh script in the main AlphaFold directory:  
-[run_alphafold.sh]()
+[run_alphafold.sh](https://github.com/SchniedersLab/lab-info/blob/main/HowToFiles/Resources/run_alphafold.sh)
 
 Example Job Script:  
 #$ -r n                      # Restartable  
