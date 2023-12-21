@@ -23,13 +23,13 @@ Add `$CUDALOCATION/bin` to your path, and `$CUDALOCATION/lib` to `DYLD_LIBRARY_P
 
 The relevant lines from my Bash profile:
 
-`export CUDALOCATION='/Developer/NVIDIA/CUDA-8.0'`
-`export PATH="${CUDALOCATION}/bin:$PATH"`
+`export CUDALOCATION='/Developer/NVIDIA/CUDA-8.0'`  
+`export PATH="${CUDALOCATION}/bin:$PATH"`  
 `export DYLD_LIBRARY_PATH="${CUDALOCATION}/lib:$DYLD_LIBRARY_PATH"`
 
 If you don't already have FFX-OpenMM working, you will have to add these to your Bash profile (possibly slightly modified depending on where Anaconda is and where Anaconda put OpenMM):
 
-`export OPENMM_PLUGIN_DIR='/anaconda/pkgs/openmm-7.1.0rc1-py36_0/lib/plugins'`
+`export OPENMM_PLUGIN_DIR='/anaconda/pkgs/openmm-7.1.0rc1-py36_0/lib/plugins'`  
 `export JNA_LIBRARY_PATH='/anaconda/pkgs/openmm-7.1.0rc1-py36_0/lib'`
 
 At this point, you can validate by running `ffxc Energy -Dplatform=OMM someFile.pdb`. Note that the energies may not be exact in certain cases, particularly if you have symmetry not supported by OpenMM or force fields that we can't yet translate into OpenMM. It will take a bit the first time, as it's compiling a bunch of CUDA kernels.
