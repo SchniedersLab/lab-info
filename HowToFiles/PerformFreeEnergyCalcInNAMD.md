@@ -50,11 +50,11 @@ Free Energy Simulations
        1. Load .psf and .fep
        2. Select fep as a PDB type file
        3. Open TK Console
-          1. Extension > TK Console
-          2. Type these commands:
+          * Extension > TK Console
+          * Type these commands:
             * `set origin [atomselect top all]`
             * `measure center $origin`
-          3. Copy and paste cell origin into configuration files
+          * Copy and paste cell origin into configuration files
 5. Time-steps
    * Individual time steps are measure by fempto-seconds
 6. DCD frequency option
