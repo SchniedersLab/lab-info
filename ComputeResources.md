@@ -11,9 +11,12 @@
 * General information about large scale storage at the U. of Iowa is available here [Large Scale Storage Service Documentation](https://its.uiowa.edu/lss).
 
 ## Schnieders Lab "MS" Queue
-The queue consists of 16 nodes and 64 Nvidia GPUs.
+The queue consists of 18 nodes and 72 Nvidia GPUs.
 
-1. Nodes with 6 Nvida A10 GPUs (22 GB memory) and 112 Intel Cores (128 GB of memory)
+1. Nodes with 4 Nvidia NVIDIA L40S (44 GB memory) and 128 Intel Cores (256 GB of memory)
+   * argon-itf-bx43-02
+   * argon-itf-bx43-03
+1. Nodes with 6 Nvidia A10 GPUs (22 GB memory) and 112 Intel Cores (128 GB of memory)
   * argon-itf-bx54-12
 2. Nodes with 8 Nvidia 2080 TI GPUs and 80 Intel Cores (16 Total GPUs)
   * argon-itf-bx54-34
@@ -43,6 +46,6 @@ The queue consists of 16 nodes and 64 Nvidia GPUs.
   * argon-lc-f14-29
   * argon-lc-f14-30
 
-This data was retrieved on Sept 14, 2022 using a command suggested by Glenn Johnson: qstat -s r -F -q $(qselect -q MS) 
+This data was retrieved on Sept 10, 2024 using a command suggested by Glenn Johnson: qstat -s r -F -q $(qselect -q MS) 
 
 
