@@ -13,15 +13,15 @@
 ## Schnieders Lab "MS" Queue
 The queue consists of 18 nodes and 72 Nvidia GPUs.
 
-1. Nodes with 4 Nvidia NVIDIA L40S (44 GB memory) and 128 Intel Cores (256 GB of memory)
+1. 2 Nodes with 4 Nvidia NVIDIA L40S (44 GB memory) and 128 Intel Cores (256 GB of memory)
    * argon-itf-bx43-02
    * argon-itf-bx43-03
-1. Nodes with 6 Nvidia A10 GPUs (22 GB memory) and 112 Intel Cores (128 GB of memory)
+1. 1 Node with 6 Nvidia A10 GPUs (22 GB memory) and 112 Intel Cores (128 GB of memory)
   * argon-itf-bx54-12
-2. Nodes with 8 Nvidia 2080 TI GPUs and 80 Intel Cores (16 Total GPUs)
+2. 2 Nodes with 8 Nvidia 2080 TI GPUs and 80 Intel Cores (16 Total GPUs)
   * argon-itf-bx54-34
   * argon-itf-bx54-35
-3. 7 Nodes with Quad Nvidia 1080 Ti GPUs and 40 Intel Cores (28 Total GPUs) (Good Single Precision GPU Performance)
+3. 7 Nodes with 4 Nvidia 1080 Ti GPUs and 40 Intel Cores (28 Total GPUs) (Good Single Precision GPU Performance)
   * argon-itf-ca37-12
   * argon-itf-ca37-15
   * argon-itf-ca37-18
@@ -29,9 +29,9 @@ The queue consists of 18 nodes and 72 Nvidia GPUs.
   * argon-itf-ca37-24
   * argon-itf-ca37-27
   * argon-itf-ca37-30
-4. 1 Node with Quad Titan V GPUs and 40 Intel Cores (Good Single and Double Precision GPU Performance)
+4. 1 Node with 4 Titan V GPUs and 40 Intel Cores (Good Single and Double Precision GPU Performance)
   * argon-itf-ca38-39
-5. 5 Nodes with Dual Nvidia P100 GPUs and 56 Cores (10 Total GPUs) (Good Single and Double Precision GPU Performance)
+5. 5 Nodes with 2 Nvidia P100 GPUs and 56 Cores (10 Total GPUs) (Good Single and Double Precision GPU Performance)
   * argon-lc-g11-35
   * argon-lc-g11-36
   * argon-lc-g11-37
