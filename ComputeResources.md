@@ -21,7 +21,7 @@ The queue consists of 6 nodes and 34 Nvidia GPUs.
 3. 2 Nodes with 8 Nvidia 2080 TI GPUs and 80 Intel Cores (16 Total GPUs)
   * argon-itf-bx54-34
   * argon-itf-bx54-35
-4. 1 Node with 4 Nvidia 1080 Ti GPUs and 80 Intel Cores
+4. 1 Node with 4 Nvidia 2080 Ti GPUs and 80 Intel Cores
   * argon-itf-bx51-13
 
 This data was retrieved on Feb 12, 2026 using a command suggested by Glenn Johnson: qstat -s r -F -q $(qselect -q MS) 
